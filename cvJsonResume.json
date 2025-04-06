@@ -2,7 +2,7 @@
   "basics": {
     "name": "Sergio Sacristán Santero",
     "label": "Programador FrontEnd",
-    "image": "./src/assets/profile.webp",
+    "image": "./public/profile.webp",
     "email": "sergiosacristan8@gmail.com",
     "phone": "+34695588397",
     "url": "https://sergiosacristan.com",
