@@ -84,17 +84,17 @@
       "startDate": "2013-01-01",
       "endDate": "2015-01-01",
       "score": "4.0",
-      "courses": []
+      "courses": ["Windows Server", "linux", "Redes", "Cisco Networking"]
     },
     {
-      "institution": "",
+      "institution": "Santisima Trinidad",
       "url": "https://www.linkedin.com/search/results/all/?keywords=COLEGIO%20SANTISIMA%20TRINIDAD&sid=ea%3B",
       "area": "Tecnico Superior en desarrollo de aplicaciones multiplataforma",
       "studyType": "CFGS - Desarrollo de Aplicaciones Multiplataforma (DAM)",
       "startDate": "2015-01-01",
       "endDate": "2017-01-01",
       "score": "4.0",
-      "courses": []
+      "courses": ["Android Studio", "C++", "SQL", "Java", "PHP", "XML"]
     },
     {
       "institution": "IES Alonso de Madrigal",
@@ -104,7 +104,7 @@
       "startDate": "2017-01-01",
       "endDate": "2018-01-01",
       "score": "4.0",
-      "courses": []
+      "courses": ["HTML", "CSS", "JS", "SASS", "JQUERY", "Bootstrap"]
     }
   ],
   "awards": [],

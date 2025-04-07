@@ -7,7 +7,7 @@ import { education } from "@cv";
   <ul class="flex flex-col gap-4">
     {
       education.map(
-        ({ institution, url, area, studyType, startDate, endDate, score }) => {
+        ({ courses, area, studyType, startDate, endDate, score }) => {
           const startYear = new Date(startDate).getFullYear();
           const endYear = !!endDate
             ? new Date(endDate).getFullYear()
@@ -19,17 +19,26 @@ import { education } from "@cv";
           return (
             <li>
               <article class="">
-                <header class="flex justify-between">
+                <header class="flex justify-between align-center items-baseline">
                   <div>
-                    <h3 class="text-xl text-gray-900 font-bold">
-                      {institution}
+                    <h3 class="text-xl text-gray-900 font-bold border-b-2 border-gray-400 mt-4 mb-2">
+                      {studyType}
                     </h3>
-                    <h4 class="text-md text-gray-700 font-semibold">{url}</h4>
+                    <h4 class="text-md text-gray-700 font-semibold">{area}</h4>
                   </div>
                   <time class="text-md">{years}</time>
                 </header>
-                <footer>
-                  <p class="text-gray-600">{url}</p>
+                <footer class="">
+                  <div class="flex flex-row gap-2">
+                    {courses.map((course, index) => {
+                      return (
+                        <span>
+                          {course}
+                          {courses.length - 1 === index ? "" : ` / `}
+                        </span>
+                      );
+                    })}
+                  </div>
                 </footer>
               </article>
             </li>
