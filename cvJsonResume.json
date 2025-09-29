@@ -34,7 +34,7 @@
       "url": "",
       "startDate": "2025-04-01",
       "endDate": "",
-      "summary": "Como desarrollador freelance, me especializo en el desarrollo de aplicaciones web utilizando tecnologías modernas como Angular, Vue, React, Nuxt, Next, Astro y Svelte. Ofrezco soluciones personalizadas para proyectos diversos, aplicando las mejores prácticas de desarrollo y metodologías ágiles. Tengo experiencia en el uso de JavaScript y CSS para crear interfaces interactivas y altamente funcionales, adaptadas a las necesidades específicas de cada cliente.",
+      "summary": "Como desarrollador freelance, me especializo en el desarrollo de aplicaciones web utilizando tecnologías modernas como Angular, Vue, React, Nuxt, Next y Astro. Ofrezco soluciones personalizadas para proyectos diversos, aplicando las mejores prácticas de desarrollo y metodologías ágiles. Tengo experiencia en el uso de JavaScript y CSS para crear interfaces interactivas y altamente funcionales, adaptadas a las necesidades específicas de cada cliente.",
       "highlights": []
     },
     {
@@ -57,11 +57,11 @@
     },
     {
       "name": "Aidiapp",
-      "position": "Junior",
+      "position": "Desarrollador",
       "url": "",
       "startDate": "2021-01-01",
-      "endDate": "2021-01-01",
-      "summary": "Como Desarrollador Fullstack, me encargué del desarrollo de aplicaciones Angular para la gestión de cultivos, utilizando Angular 10 y Angular Material para crear interfaces interactivas y eficientes. Implementé soluciones con JavaScript y plantillas NGX_ADMIN, además de trabajar con Node.js en el backend. Utilicé Swagger para la documentación de APIs y gestioné el flujo de trabajo mediante Trello, todo bajo metodologías ágiles.",
+      "endDate": "2023-01-01",
+      "summary": "Como Desarrollador Fullstack, me encargué del desarrollo de aplicaciones Angular para la gestión de cultivos, utilizando Angular y Angular Material para crear interfaces interactivas y eficientes. Implementé soluciones con JavaScript y plantillas NGX_ADMIN, además de trabajar con Node.js en el backend. Utilicé Swagger para la documentación de APIs y gestioné el flujo de trabajo mediante Trello, todo bajo metodologías ágiles.",
       "highlights": []
     },
     {
