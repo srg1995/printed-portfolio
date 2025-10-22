@@ -6,6 +6,8 @@ import Mail from "../icons/Mail.astro";
 import Phone from "../icons/Phone.astro";
 import { basics } from "@cv";
 import WorldMap from "../icons/WorldMap.astro";
+import { Image } from "astro:assets";
+import imgProfile from '../../assets/profile.webp';
 const { name, label, image, location, profiles, phone, email } = basics;
 const { region, city } = location;
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
@@ -15,6 +17,7 @@ const SOCIAL_ICONS: any = {
   GitHub,
   LinkedIn,
 };
+
 ---
 
 <Section>
@@ -80,12 +83,14 @@ const SOCIAL_ICONS: any = {
       </footer>
     </div>
     <figure>
-      <img
-        class="w-[130px] aspect-square object-cover rounded-lg"
-        src={image}
-        alt={name}
-        loading="lazy"
-      />
+          
+    <Image
+      src={imgProfile}
+      alt={name}
+      width={130}
+      height={149}
+      class="rounded-lg object-cover"
+    />
     </figure>
   </div>
 </Section>
