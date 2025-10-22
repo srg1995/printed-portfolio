@@ -20,8 +20,8 @@ import { projects } from "@cv";
             <li class="">
               <article class=" rounded-sm flex flex-col p-8 gap-8">
                 <header>
-                  <a
-                    class={`${status === "desarrollo" ? "cursor-pointer" : "cursor-not-allowed"}`}
+                  {status === "desarrollo" ? (<a
+                    class="cursor-pointer"
                     target="_blank"
                     href={!!url ? url : undefined}
                     title={`Ver el proyecto ${name}`}
@@ -29,12 +29,25 @@ import { projects } from "@cv";
                     <h3 class="text-xl font-semibold mb-2">
                       {name}
                       <span
-                        class={`ml-2 ${status === "desarrollo" ? "text-green-500" : "text-orange-500"}`}
+                        class="text-green-500" 
                       >
                         &bull;
                       </span>
                     </h3>
-                  </a>
+                  </a>) : (<div
+                    class="cursor-not-allowed"
+                    
+                    title={`Ver el proyecto ${name}`}
+                  >
+                    <h3 class="text-xl font-semibold mb-2">
+                      {name}
+                      <span
+                        class="ml-2 text-orange-500"
+                      >
+                        &bull;
+                      </span>
+                    </h3>
+                  </div>)}
 
                   <p class="text-sm text-gray-600">{description}</p>
                 </header>
